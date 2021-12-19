@@ -8,9 +8,6 @@
 
 * Each UFO sighting will have data for `date/time`, `city`, `state`, `country`, `shape`, and `comment`.
 
-* A simple filter form was created using a date form where a user can select a date value from a dropdown menu. A function called `filterTable()` was created using JavaScript that listens for events and searches through the `date/time` column to find rows that match user input and displays these to the webpage.
-
-* A function called `resetTable()` clears the body of the table, populates the dropdown menu with unique date values from the dataset and displays all data to the table as a starting point.
 
 
 ## Level 2: Multiple Search Categories
@@ -24,5 +21,3 @@
   3. `state`
   4. `country`
   5. `shape`
-
-* An additional function `populateDropdowns()` was written to automatically populate the dropdown menus with unique values for each category. These options were sorted in ascending order using `d3.ascending` for ease of use when selecting.
